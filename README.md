@@ -7,3 +7,4 @@ Selenium still does the trick, but it's suuuuuuuper slow. That's why I created t
 
 ### Dependencies
 Beautiful Soup (bs4)
+requests
