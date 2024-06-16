@@ -8,3 +8,8 @@ Selenium still does the trick, but it's suuuuuuuper slow. That's why I created t
 ### Dependencies
 - Beautiful Soup (bs4)
 - requests
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
