@@ -7,9 +7,8 @@ import json
 def get_msn_news_data_from_url(url):
     start = time.time()
     url_parts = url.split("-")
-    # Get the last part of the URL
+    # Get the last part of the URL after the "ar-" common in msn news urls
     article_id = url_parts[-1]
-    # Remove the "ar-" prefix if it exists
     url = f"https://assets.msn.com/content/view/v2/Detail/en-us/{article_id}"
     response = requests.request("GET", url, headers={}, data={})
     response_json = json.loads(response.text)
